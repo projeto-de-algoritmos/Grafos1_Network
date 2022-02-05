@@ -1,6 +1,6 @@
 # 
 
-
+Grafos 1
 
 ## Alunos
 |Matrícula | Aluno |
@@ -15,7 +15,6 @@
 
 
 ## Instalação 
-**Linguagem**: 
-**Framework**:
+**Linguagem**: Python
 **Pré-requisitos**: 
 ## Uso
