@@ -19,8 +19,6 @@ class Model():
         self.ypoint = 200
         self.res = None
 
-
-
 class View():
     def __init__(self, master):
         self.frame = Tk.Frame(master)
@@ -77,8 +75,7 @@ class Controller():
 
         nx.draw_networkx(greys)
         canvas = FigureCanvasTkAgg(f)
-        canvas.get_tk_widget().pack(side='bottom', fill='both', expand=1)  # ERROR Tk.
-        #####
+        canvas.get_tk_widget().pack(side='bottom', fill='both', expand=1) 
 
         nx.draw_networkx(greys)
 
