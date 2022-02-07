@@ -1,4 +1,5 @@
 import tkinter as Tk
+from tkinter import ttk
 
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
@@ -30,17 +31,23 @@ class View():
         self.canvas = FigureCanvasTkAgg(self.fig, master=self.frame)
         self.canvas.get_tk_widget().pack(side=Tk.TOP, fill=Tk.BOTH, expand=1)
         self.canvas.draw()
+        
 
 
 class SidePanel():
     def __init__(self, root):
         self.frame2 = Tk.Frame(root)
         self.frame2.pack(side=Tk.LEFT, fill=Tk.BOTH, expand=1)
+        self.label = Tk.Label(self.frame2, text = "Escolha uma opção")
+        self.label.pack(side="top", fill=Tk.BOTH)
+        self.listcsv = ["Eleições Brasil", "Eleições EUA"]
+        self.Combobox = ttk.Combobox(self.frame2, values = self.listcsv)
+        self.Combobox.pack (side="top", fill=Tk.BOTH)
         self.plotBut = Tk.Button(self.frame2, text="Plotar ")
         self.plotBut.pack(side="top", fill=Tk.BOTH)
         self.clearButton = Tk.Button(self.frame2, text="Limpar")
         self.clearButton.pack(side="top", fill=Tk.BOTH)
-
+        
 
 class Controller():
     def __init__(self):
