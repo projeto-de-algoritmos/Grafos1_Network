@@ -1,3 +1,5 @@
+import BFS as bfs
+import DFS as dfs
 import tkinter as Tk
 from tkinter import ttk
 
@@ -8,7 +10,7 @@ import networkx as nx
 
 #LENDO UM ARQUIVO
 import pandas as pd
-df = pd.read_csv("network_lista.csv")
+df = pd.read_csv("network_grays.csv")
 
 import matplotlib.pyplot as plt
 
@@ -86,3 +88,4 @@ class Controller():
 if __name__ == '__main__':
     c = Controller()
     c.run()
+
