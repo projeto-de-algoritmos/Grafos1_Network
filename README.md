@@ -18,8 +18,7 @@ O network é uma aplicação que mostra as conexões em forma de grafo a partir 
 
 ## Screenshots
 
-![Arquivo .csv](grafos1/assets/screen1.png)
-
+![Arquivo .csv](https://user-images.githubusercontent.com/83254747/152902785-9e026555-2df0-447f-8e1f-4ac50d1180c6.png)
 ![Grafo](/grafos1/assets/screen2.png)
 
 
