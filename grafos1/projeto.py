@@ -8,7 +8,7 @@ import networkx as nx
 
 #LENDO UM ARQUIVO
 import pandas as pd
-df = pd.read_csv("network_candidato.csv")
+df = pd.read_csv("network_lista.csv")
 
 import matplotlib.pyplot as plt
 
@@ -40,9 +40,6 @@ class SidePanel():
         self.frame2.pack(side=Tk.LEFT, fill=Tk.BOTH, expand=1)
         self.label = Tk.Label(self.frame2, text = "Escolha uma opção")
         self.label.pack(side="top", fill=Tk.BOTH)
-        self.listcsv = ["Eleições Brasil", "Eleições EUA"]
-        self.Combobox = ttk.Combobox(self.frame2, values = self.listcsv)
-        self.Combobox.pack (side="top", fill=Tk.BOTH)
         self.plotBut = Tk.Button(self.frame2, text="Plotar ")
         self.plotBut.pack(side="top", fill=Tk.BOTH)
         self.clearButton = Tk.Button(self.frame2, text="Limpar")
