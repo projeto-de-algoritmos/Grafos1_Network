@@ -8,7 +8,7 @@ import networkx as nx
 
 #LENDO UM ARQUIVO
 import pandas as pd
-df = pd.read_csv("network_lista.csv")
+df = pd.read_csv("network_candidato.csv")
 
 import matplotlib.pyplot as plt
 
