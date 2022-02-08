@@ -1,4 +1,4 @@
-# Networl
+# Network
 
 **Número da Lista**: 1<br>
 **Conteúdo da Disciplina**: Grafos 1<br>
@@ -18,9 +18,9 @@ O network é uma aplicação que mostra as conexões em forma de grafo a partir 
 
 ## Screenshots
 
-![Arquivo .csv](assets/screen1.png)
+![Arquivo .csv](grafos1/assets/screen1.png)
 
-![Grafo](assets/screen2.png)
+![Grafo](/grafos1/assets/screen2.png)
 
 
 ## Instalação 
